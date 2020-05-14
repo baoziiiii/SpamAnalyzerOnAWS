@@ -1,0 +1,81 @@
+test:
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2020-05-10T04:17:30.115Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAYTRSA2B3EJ2CVVMVY"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "108.54.91.235"
+      },
+      "responseElements": {
+        "x-amz-request-id": "4ED8E49C59B2996E",
+        "x-amz-id-2": "nCULSVc5tfv/xDk6rVsW3Dc5Pfj2qoN+IMYmMiQhgTTAjKrsAA1w4fPNxRw6zKc9r16isUIqvLK3+uAvtej4lImcNr5p2rfb"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "1e26e002-5c5d-4dff-9eb8-39a99077effe",
+        "bucket": {
+          "name": "hw4s1",
+          "ownerIdentity": {
+            "principalId": "A4RIABRSQPVI8"
+          },
+          "arn": "arn:aws:s3:::hw4s1"
+        },
+        "object": {
+          "key": "rb4ju2jnl9l47sogq1eghrcct85kbj2i9bv6okg1",
+          "size": 14,
+          "eTag": "d2156ed84876766f2f5e6e414a4edca6",
+          "versionId": "btWNf7xSBu1lSjbAM1C35vBRfGa9O8On",
+          "sequencer": "005EB780641C112FF0"
+        }
+      }
+    }
+  ]
+}
+
+base64:
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2020-05-10T04:17:30.115Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAYTRSA2B3EJ2CVVMVY"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "108.54.91.235"
+      },
+      "responseElements": {
+        "x-amz-request-id": "4ED8E49C59B2996E",
+        "x-amz-id-2": "nCULSVc5tfv/xDk6rVsW3Dc5Pfj2qoN+IMYmMiQhgTTAjKrsAA1w4fPNxRw6zKc9r16isUIqvLK3+uAvtej4lImcNr5p2rfb"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "1e26e002-5c5d-4dff-9eb8-39a99077effe",
+        "bucket": {
+          "name": "hw4s1",
+          "ownerIdentity": {
+            "principalId": "A4RIABRSQPVI8"
+          },
+          "arn": "arn:aws:s3:::hw4s1"
+        },
+        "object": {
+          "key": "uqk2qs5i4v578623l0hrthbe9aluar1bkglbh1g1",
+          "size": 14,
+          "eTag": "d2156ed84876766f2f5e6e414a4edca6",
+          "versionId": "btWNf7xSBu1lSjbAM1C35vBRfGa9O8On",
+          "sequencer": "005EB780641C112FF0"
+        }
+      }
+    }
+  ]
+}
